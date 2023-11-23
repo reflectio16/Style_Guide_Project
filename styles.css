@@ -1,0 +1,290 @@
+* {
+
+    box-sizing: border-box;
+}
+
+
+body {
+
+    display: block;
+    margin: 30px 10%;  
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif; 
+    
+}
+
+h2 {
+
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+nav {
+
+    float: right;
+}
+
+nav ul {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 35px;
+}
+
+nav a {
+
+    color: #000080;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+
+    color: #800080;
+}
+
+
+.left{
+
+    float: left;
+} 
+
+.right {
+
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.container {
+
+    border: 1.5px solid #00000080;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.colors, .buttons, .fonts, .badges {
+
+    display:flex;
+    flex-wrap: wrap; 
+    margin-bottom: 20px;
+    
+}
+
+
+/* -- Colors ------------------- */
+
+.Color-border {
+
+    width: 350px;
+    padding: 30px 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    
+}
+
+.Navy {
+
+    background-color: #000080 ;
+    color: #FEFCFF; 
+}
+
+.Teal {
+
+    background-color: #008080 ;
+    color: #FEFCFF;  
+}
+
+.Purple {
+
+    background-color: #9d5a8f;
+    color: #FEFCFF;   
+}
+
+.Azure {
+
+    background-color:#F0FFFF;
+    color: 	#000000;
+}
+
+.Gold {
+
+    background-color: #ffff66;
+    color: #000000;
+}
+
+
+/* -- Buttons ------------- */
+
+
+.btn {
+
+    border-radius: 7px;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    
+    
+}
+
+
+.btn-primary {
+
+    background-color: #000080;  
+    color: #ffffff;
+    
+}
+
+.btn-primary:hover {
+
+    background-color: #008080;
+    cursor: pointer;
+
+
+}
+
+.btn-hover {
+
+    background-color: #008080;  
+    box-shadow: 3px 5px 5px 3px #0c646480;
+    transition: all 0.2s ease;
+    color: #ffff66;
+   
+}
+
+.btn-inactive {
+
+    background-color: #dce0e0;
+    color: #9d5a8f;
+}
+
+.btn-lg {
+
+    height: 50px;
+    width: 200px;   
+}
+
+.btn-sm {
+    
+    height: 35px;
+    width: 150px;
+
+}
+
+/* -- Badges ------------------------- */
+
+.badge {
+
+
+    margin: 1.5em 3em;
+	width: 5.4em;
+	height: 5.4em;
+	border-radius: 20%;
+	display: inline-block;
+	top: 0;
+	transition: all 0.2s ease;
+    box-shadow: 8px 10px 12px 3px #00000060;
+    text-align:center;
+    padding-top: 30px;
+
+}
+
+.lemon {
+
+    background-color: #ffff66;
+}
+
+.bermuda {
+
+    background-color: #9d5a8f;
+}
+
+
+/* -- Fonts --------------------------- */
+
+
+.Roboto-reg {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.Roboto-ita {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+.Roboto-bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.Mont-reg {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.Mont-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.Mont-ita {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+.Courier-reg {
+    font-family: 'Courier Prime', monospace;
+    font-weight: 400;
+}
+
+.Courier-bold {
+    font-family: 'Courier Prime', monospace;
+    font-weight: 700;
+}
+
+.Courier-ita {
+    font-family: 'Courier Prime', monospace;
+    font-style: italic;
+}
+
+.Font-title {
+
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Font-border, .text-styles {
+
+    margin: 0 50px 0 10px;
+}
+
+.Top {
+
+    text-decoration: none;
+    background-color:#000000;
+    float: right;
+    padding: 8px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #F0FFFF;
+}
+
+.Top:hover {
+
+    background-color: #9d5a8f;
+
+}
